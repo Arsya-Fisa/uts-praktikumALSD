@@ -12,6 +12,7 @@ public class dosenmain {
         }
     }
     static void carinamadosen (dosen01 [] daftardosen, String carinama, int tahunSekarang){
+        // linear search
         boolean ditemukan = false;
         for (dosen01 a : daftardosen){
             if (a.nama.equalsIgnoreCase(carinama)) {
